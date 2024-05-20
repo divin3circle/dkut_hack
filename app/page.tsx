@@ -15,6 +15,9 @@ import dkut from "../app/logos/dkut.png";
 import mlsa from "../app/logos/mlsa.png";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { CanvasRevealEffectDemo } from "@/components/canvas-reveal-demo";
+import { TypewriterEffect } from "@/components/ui/typewriter-effect";
+import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-vanish-input";
+import Footer from "@/components/footer";
 
 export default function Home() {
   const words = ["innovation", "creativity", "technology", "solutions"];
@@ -132,6 +135,35 @@ export default function Home() {
       ),
     },
   ];
+  const typeWords = [
+    {
+      text: "Build,",
+    },
+    {
+      text: "Learn, & ",
+    },
+    {
+      text: "Connect, At ",
+    },
+    {
+      text: "- DeKUT HACK.",
+      className: "text-blue-500 dark:text-blue-500",
+    },
+  ];
+  const placeholders = [
+    "When is the hackathon starting?",
+    "Who are the judges?",
+    "Can I be a solo-hacker?",
+    "Must I be a student at DeKUT to participate?",
+    "Who built this site😂?",
+  ];
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(e.target.value);
+  };
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log("submitted");
+  };
   return (
     <div className="max-w-[1020px] mx-auto my-0">
       <Navbar />
@@ -171,7 +203,17 @@ export default function Home() {
         <div className="bg-slate-950">
           <CanvasRevealEffectDemo />
         </div>
+        <TypewriterEffect words={typeWords} />
+        <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl text-gray-600 mt-12 ">
+          Have a question? Feel free to ask us!
+        </h2>
+        <PlaceholdersAndVanishInput
+          placeholders={placeholders}
+          onChange={handleChange}
+          onSubmit={onSubmit}
+        />
       </div>
+      <Footer />
     </div>
   );
 }

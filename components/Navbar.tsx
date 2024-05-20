@@ -4,15 +4,15 @@ import { FaCode, FaTelegram, FaWhatsapp } from "react-icons/fa";
 function Navbar() {
   return (
     <div className="flex justify-between mx-4 my-10">
-      <div className="flex gap-1">
+      <div className="flex gap-1 ">
         <FaCode color="#42C7E2" size={54} />
         {/* <h1 className="text-white text-2xl font-bold">DeKUT HACK</h1> */}
       </div>
       <div className="flex justify-center gap-4 items-center">
-        <div>
+        <div className="cursor-not-allowed">
           <FaTelegram color="gray" size={34} />
         </div>
-        <div>
+        <div className="cursor-not-allowed">
           <FaWhatsapp color="gray" size={34} />
         </div>
         <div>
