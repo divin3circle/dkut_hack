@@ -145,7 +145,7 @@ export const LampContainer = ({
               }}
               href="https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b4fESVfay2FEjJAwLh7k8axUQUZCVVRTVkRCQktVSDYzUTM3SFhYMzFWOC4u"
               target="_blank"
-              className="px-4 md:px-12 py-2 text-white text-lg rounded-md hover:bg-slate-950 hover:text-[#42C5E2] ease-in-out duration-150 hover:scale-110 border-2 border-[#42c7e2] hover:border-0"
+              className="px-4 md:px-12 py-2 text-white text-lg rounded-md hover:bg-slate-950 hover:text-[#42C5E2] ease-in-out duration-150 hover:scale-110 border-2 border-[#42c7e2] hover:border-0 flex justify-center items-center"
             >
               Register
             </motion.a>
