@@ -3,7 +3,7 @@ import React, { ReactElement } from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
-import { FaGift } from "react-icons/fa6";
+import { FaGift, FaPerson, FaUserTie } from "react-icons/fa6";
 
 export function CanvasRevealEffectDemo() {
   return (
@@ -12,7 +12,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="Winners"
           prizes="Ksh. 15,000"
-          icon={<FaGift color="#42C5E2" size={30} />}
+          icon={<FaUserTie color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,7 +22,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="1st Runners Up"
           prizes="Ksh. 10,000"
-          icon={<FaGift color="#42C5E2" size={30} />}
+          icon={<FaUserTie color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -39,7 +39,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="2nd Runners Up"
           prizes="Ksh. 5,000"
-          icon={<FaGift color="#42C5E2" size={30} />}
+          icon={<FaUserTie color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -92,6 +92,9 @@ const Card = ({
           {icon}
         </div>
         <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+          To be announced soon..
+        </h2>
+        {/* <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {title}
         </h2>
         <p className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
@@ -102,7 +105,7 @@ const Card = ({
         </p>
         <p className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           Vouchers
-        </p>
+        </p> */}
       </div>
     </div>
   );

@@ -51,11 +51,11 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
+            <div className="mt-4 flex items-center justify-center">
+              <Image width={75} height={75} src={item.image} alt="image" />
+            </div>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
-            <div className="mt-4">
-              <Image width={50} height={50} src={item.image} alt="image" />
-            </div>
           </Card>
         </Link>
       ))}

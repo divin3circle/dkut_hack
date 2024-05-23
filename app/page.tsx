@@ -25,7 +25,7 @@ export default function Home() {
     {
       title: "Microsoft ADC",
       description:
-        "A program that provides resources to help students learn, build, and connect.",
+        "The Africa Development Center (ADC) represents Microsoft's first-ever developent centers in Africa. It's a premier center of Engineering for Microsoft that leverages the diversity of the region to build world class talent.",
       link: "https://www.microsoft.com/en-us/madc",
       image: adc,
     },
@@ -184,11 +184,26 @@ export default function Home() {
         </LampContainer>
       </div>
       <div className="md-mx-0 mx-2">
-        <HoverEffect items={projects} />
         <h1 className="text-[#42C5E2] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
           Hackathon Themes
         </h1>
+        <div className="max-w-[800px] flex items-center justify-center mx-auto my-0 p-8">
+          <p className="text-gray-300 text-center leading-relaxed">
+            Dekut Hack will have three themes: Climate, Education and
+            Healthcare. Teams will have the flexibility to develop their
+            projects within any of these three areas. The aim is to allow
+            participants to explore and innovate in the field of their choice,
+            whether it's addressing the current climate issues, enhancing
+            educational systems or improving our healthcare systems.Each team
+            can select the theme that best aligns with their interests and
+            expertise
+          </p>
+        </div>
         <StickyScroll content={content} />
+        <h1 className="text-[#42C5E2] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
+          Hackathon Sponsors
+        </h1>
+        <HoverEffect items={projects} />
         <div className="h-[40rem] rounded-md flex flex-col antialiased bg-slate-950 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
             items={themes}
@@ -198,7 +213,7 @@ export default function Home() {
           />
         </div>
         <h1 className="text-[#42C5E2] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
-          Prizes
+          Judges
         </h1>
         <div className="bg-slate-950">
           <CanvasRevealEffectDemo />

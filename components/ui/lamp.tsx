@@ -135,7 +135,7 @@ export const LampContainer = ({
             >
               {days} days {hours} hours {minutes} minutes {seconds} seconds
             </motion.h1>
-            <motion.button
+            <motion.a
               initial={{ opacity: 0.5, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{
@@ -143,10 +143,12 @@ export const LampContainer = ({
                 duration: 0.8,
                 ease: "easeInOut",
               }}
+              href="https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b4fESVfay2FEjJAwLh7k8axUQUZCVVRTVkRCQktVSDYzUTM3SFhYMzFWOC4u"
+              target="_blank"
               className="px-4 md:px-12 py-2 text-white text-lg rounded-md hover:bg-slate-950 hover:text-[#42C5E2] ease-in-out duration-150 hover:scale-110 border-2 border-[#42c7e2] hover:border-0"
             >
               Register
-            </motion.button>
+            </motion.a>
           </div>
         </motion.div>
       </div>
