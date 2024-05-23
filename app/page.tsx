@@ -105,7 +105,7 @@ export default function Home() {
   ];
   const content = [
     {
-      title: "Climate CHange",
+      title: "Climate Change",
       description:
         "Be part of a global movement to combat climate change. DeKUT hackathon allows you to collaborate with others in real building real world solutions, making it easier than ever to make a difference. Join us and help create a sustainable future for all.",
       content: (
