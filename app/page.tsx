@@ -140,13 +140,23 @@ export default function Home() {
       text: "Build,",
     },
     {
-      text: "Learn, & ",
+      text: "Learn ",
     },
     {
-      text: "Connect, At ",
+      text: "& ",
     },
     {
-      text: "- DeKUT HACK.",
+      text: "Connect ",
+    },
+    {
+      text: "At ",
+    },
+    {
+      text: "- ",
+      className: "text-blue-500 dark:text-blue-500",
+    },
+    {
+      text: "DeKUT HACK.",
       className: "text-blue-500 dark:text-blue-500",
     },
   ];
