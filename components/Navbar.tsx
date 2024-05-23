@@ -11,15 +11,11 @@ function Navbar() {
         {/* <h1 className="text-white text-2xl font-bold">DeKUT HACK</h1> */}
       </div>
       <div className="flex justify-center gap-4 items-center">
-        <a
-          className="cursor-not-allowed"
-          href="https://twitter.com/mlsa_dekut"
-          target="_blank"
-        >
+        <a className="" href="https://twitter.com/mlsa_dekut" target="_blank">
           <FaTwitter color="gray" size={34} />
         </a>
         <a
-          className="cursor-not-allowed"
+          className=""
           href="https://chat.whatsapp.com/HaLs0ZLwJPF1WtuVG9Trgz"
           target="_blank"
         >
