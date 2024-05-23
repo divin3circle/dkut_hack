@@ -193,7 +193,7 @@ export default function Home() {
             Healthcare. Teams will have the flexibility to develop their
             projects within any of these three areas. The aim is to allow
             participants to explore and innovate in the field of their choice,
-            whether it's addressing the current climate issues, enhancing
+            whether it is addressing the current climate issues, enhancing
             educational systems or improving our healthcare systems.Each team
             can select the theme that best aligns with their interests and
             expertise
