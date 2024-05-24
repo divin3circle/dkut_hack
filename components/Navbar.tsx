@@ -2,12 +2,13 @@ import React from "react";
 import { FaCode, FaTelegram, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import mlsa from "../app/logos/mlsa.png";
 import Image from "next/image";
+import nav from "../app/logos/nav.png";
 
 function Navbar() {
   return (
     <div className="flex justify-between mx-4 my-10">
       <div className="flex gap-1 ">
-        <Image src={mlsa} alt="logo" width={50} height={50} />
+        <Image src={nav} alt="logo" width={150} height={50} />
         {/* <h1 className="text-white text-2xl font-bold">DeKUT HACK</h1> */}
       </div>
       <div className="flex justify-center gap-4 items-center">

@@ -51,9 +51,9 @@ export default function Home() {
       image: ms,
     },
     {
-      title: "Dedan Kimathi University",
+      title: "Dedan Kimathi Innovators Club",
       description:
-        "A public university in Nyeri, Kenya that offers courses in engineering, science, and technology.",
+        "A student-led club at Dedan Kimathi University of Technology that aims to foster innovation and entrepreneurship among students.",
       link: "https://www.dkut.ac.ke/",
       image: dkut,
     },
