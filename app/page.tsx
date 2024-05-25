@@ -13,6 +13,8 @@ import postman from "../app/logos/postman.png";
 import ms from "../app/logos/moringa.png";
 import dkut from "../app/logos/dkut.png";
 import mlsa from "../app/logos/mlsa.png";
+import desaic from "../app/logos/desaic.png";
+import dekut from "../app/logos/dekut.png";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { CanvasRevealEffectDemo } from "@/components/canvas-reveal-demo";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
@@ -63,6 +65,20 @@ export default function Home() {
         "A global group of on-campus ambassadors who are eager to help students learn more about technology.",
       link: "https://studentambassadors.microsoft.com/",
       image: mlsa,
+    },
+    {
+      title: "DeSIC Dedan Kimathi",
+      description:
+        "A platform providing speedy commercialization of student innovations",
+      link: "https://dehub.dkut.ac.ke/",
+      image: desaic,
+    },
+    {
+      title: "Dedan Kimathi University",
+      description:
+        "DeKUT is one of the most progressive University in Africa with keen focus on quality education,and holistic development of students.",
+      link: "https://www.dkut.ac.ke/",
+      image: dekut,
     },
   ];
   const themes = [
