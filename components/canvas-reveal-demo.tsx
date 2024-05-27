@@ -12,7 +12,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="Winners"
           prizes="Ksh. 15,000"
-          icon={<FaUserTie color="#42C5E2" size={30} />}
+          icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,7 +22,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="1st Runners Up"
           prizes="Ksh. 10,000"
-          icon={<FaUserTie color="#42C5E2" size={30} />}
+          icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -39,7 +39,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="2nd Runners Up"
           prizes="Ksh. 5,000"
-          icon={<FaUserTie color="#42C5E2" size={30} />}
+          icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
             animationSpeed={3}

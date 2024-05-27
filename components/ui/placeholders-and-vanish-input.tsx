@@ -3,6 +3,9 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { cn } from "@/utils/cn";
+import { Resend } from "resend";
+import { Email } from "../../components/email";
+import emailjs from "@emailjs/browser";
 
 export function PlaceholdersAndVanishInput({
   placeholders,
@@ -28,6 +31,7 @@ export function PlaceholdersAndVanishInput({
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const newDataRef = useRef<any[]>([]);
+  const form = useRef<HTMLFormElement | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const [value, setValue] = useState("");
   const [animating, setAnimating] = useState(false);
@@ -151,6 +155,28 @@ export function PlaceholdersAndVanishInput({
       );
       animate(maxX);
     }
+    const sendEmail = async () => {
+      if (form.current) {
+        console.log("form.current is defined"); // Add this line
+        try {
+          await emailjs.sendForm(
+            "service_flskdq8",
+            "template_vl8azn4",
+            form.current,
+            {
+              publicKey: "q13rRf4_KUMu9ndLN",
+            }
+          );
+          // console.log("success!!");
+        } catch (error) {
+          // console.log("error", error);
+        }
+      } else {
+        // console.log("form.current is not defined"); // Add this line
+      }
+    };
+
+    sendEmail();
   };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -160,6 +186,7 @@ export function PlaceholdersAndVanishInput({
   };
   return (
     <form
+      ref={form}
       className={cn(
         "w-full relative max-w-xl mx-auto bg-gray-600 dark:bg-zinc-800 h-12 rounded-full overflow-hidden shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),_0px_1px_0px_0px_rgba(25,28,33,0.02),_0px_0px_0px_1px_rgba(25,28,33,0.08)] transition duration-200",
         value && "bg-gray-50"

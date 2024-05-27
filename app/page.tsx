@@ -15,11 +15,13 @@ import dkut from "../app/logos/dkut.png";
 import mlsa from "../app/logos/mlsa.png";
 import desaic from "../app/logos/desaic.png";
 import dekut from "../app/logos/dekut.png";
+import csok from "../app/logos/csok.png";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { CanvasRevealEffectDemo } from "@/components/canvas-reveal-demo";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-vanish-input";
 import Footer from "@/components/footer";
+import { useRef } from "react";
 
 export default function Home() {
   const words = ["innovation", "creativity", "technology", "solutions"];
@@ -72,6 +74,13 @@ export default function Home() {
         "A platform providing speedy commercialization of student innovations",
       link: "https://dehub.dkut.ac.ke/",
       image: desaic,
+    },
+    {
+      title: "Computer Society of Kimathi",
+      description:
+        "A community of students at Dedan Kimathi University of Technology who are committed to personal and professional growth and upskilling through sessions, peer-to -peer mentorship, partnerships and in-house innovations.",
+      link: "https://x.com/csokimathi?t=5PuivvPFPWB-Wk5SJN_6EQ&s=09",
+      image: csok,
     },
     {
       title: "Dedan Kimathi University",
@@ -183,12 +192,13 @@ export default function Home() {
     "Must I be a student at DeKUT to participate?",
     "Who built this site😂?",
   ];
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(e.target.value);
+    // console.log(e.target.value);
   };
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("submitted");
+    // console.log("onSubmit triggered"); // Add this line
   };
   return (
     <div className="max-w-[1020px] mx-auto my-0">
@@ -239,7 +249,7 @@ export default function Home() {
           />
         </div>
         <h1 className="text-[#42C5E2] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
-          Judges
+          Prizes
         </h1>
         <div className="bg-slate-950">
           <CanvasRevealEffectDemo />

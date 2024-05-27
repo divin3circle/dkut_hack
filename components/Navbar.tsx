@@ -17,7 +17,7 @@ function Navbar() {
         </a>
         <a
           className=""
-          href="https://chat.whatsapp.com/HaLs0ZLwJPF1WtuVG9Trgz"
+          href="https://chat.whatsapp.com/CDVpW3ICEFSJEFP81rXyIb"
           target="_blank"
         >
           <FaWhatsapp color="gray" size={34} />
