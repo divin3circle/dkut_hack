@@ -22,6 +22,8 @@ import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-vanish-input";
 import Footer from "@/components/footer";
 import { useRef } from "react";
+import { FaMailBulk } from "react-icons/fa";
+import { MdMail } from "react-icons/md";
 
 export default function Home() {
   const words = ["innovation", "creativity", "technology", "solutions"];
@@ -258,11 +260,22 @@ export default function Home() {
         <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl text-gray-600 mt-12 ">
           Have a question? Feel free to ask us!
         </h2>
-        <PlaceholdersAndVanishInput
+        {/* <PlaceholdersAndVanishInput
           placeholders={placeholders}
           onChange={handleChange}
           onSubmit={onSubmit}
-        />
+        /> */}
+        <div className="flex items-center justify-center">
+          <a
+            href="mailto:mlsa@dekut-hack.live"
+            className="flex items-center justify-center text-gray-900 rounded-md bg-[#42c5e2] border-2 border-[#42c5e2] hover:bg-transparent hover:scale-110 ease-in duration-200 hover:text-gray-400"
+          >
+            <button className="rounded-lg px-4 py-4 flex justify-between gap-2 text-xl">
+              Send us a mail
+              <MdMail color="blue" size="2rem" />
+            </button>
+          </a>
+        </div>
       </div>
       <Footer />
     </div>

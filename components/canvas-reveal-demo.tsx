@@ -11,7 +11,9 @@ export function CanvasRevealEffectDemo() {
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-slate-950 dark:bg-black w-full gap-4 mx-auto px-8">
         <Card
           title="Winners"
-          prizes="Ksh. 15,000"
+          prizes="Tour to Microsoft ADC"
+          prize2="Mentorship by Microsoft Engineers"
+          prize3="Swag Pack"
           icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
@@ -21,7 +23,8 @@ export function CanvasRevealEffectDemo() {
         </Card>
         <Card
           title="1st Runners Up"
-          prizes="Ksh. 10,000"
+          prizes="Swag Pack"
+          prize2="Ksh. 5000 "
           icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
@@ -38,7 +41,7 @@ export function CanvasRevealEffectDemo() {
         </Card>
         <Card
           title="2nd Runners Up"
-          prizes="Ksh. 5,000"
+          prizes="Swag Pack"
           icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
@@ -57,11 +60,15 @@ const Card = ({
   icon,
   children,
   prizes,
+  prize2,
+  prize3,
 }: {
   title: string;
   icon: ReactElement;
   children?: React.ReactNode;
   prizes?: string;
+  prize2?: string;
+  prize3?: string;
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -91,21 +98,22 @@ const Card = ({
         <div className="text-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center">
           {icon}
         </div>
-        <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
-          To be announced soon..
-        </h2>
-        {/* <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+        <div className="text-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center">
+          <h1 className="text-[#42c5e2] font-semibold">Click to reveal</h1>
+        </div>
+
+        <h2 className="dark:text-white text-center text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {title}
         </h2>
         <p className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {prizes}
         </p>
         <p className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
-          Giveaways & swags from sponsors
+          {prize2}
         </p>
         <p className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
-          Vouchers
-        </p> */}
+          {prize3}
+        </p>
       </div>
     </div>
   );
