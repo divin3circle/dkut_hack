@@ -27,7 +27,7 @@ function Footer() {
           <div className="mt-16 border-t border-gray-500 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24"></div>
           \
           <p className="text-gray-500 text-sm text-center">
-            Design & Built by{" "}
+            Designed & Built by{" "}
             <a
               href="https://github.com/divin3circle/"
               target="_blank"
