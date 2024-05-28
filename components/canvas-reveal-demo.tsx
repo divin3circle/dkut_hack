@@ -24,7 +24,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="1st Runners Up"
           prizes="Swag Pack"
-          prize2="Ksh. 5000 "
+          prize2="Ksh. 5,000 "
           icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
