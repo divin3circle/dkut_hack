@@ -16,6 +16,9 @@ import mlsa from "../app/logos/mlsa.png";
 import desaic from "../app/logos/desaic.png";
 import dekut from "../app/logos/dekut.png";
 import csok from "../app/logos/csok.png";
+import origin from "../app/logos/origin.png";
+import github from "../app/logos/github.svg";
+import tinyml from "../app/logos/tinyml.png";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { CanvasRevealEffectDemo } from "@/components/canvas-reveal-demo";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
@@ -90,6 +93,27 @@ export default function Home() {
         "DeKUT is one of the most progressive University in Africa with keen focus on quality education,and holistic development of students.",
       link: "https://www.dkut.ac.ke/",
       image: dekut,
+    },
+    {
+      title: "Origin Labs Africa",
+      description:
+        "Origin is an interdisciplinary research and innovation hub, the purpose of which is to solve the complex problems of Africa.",
+      link: "https://originlabsafrica.org/",
+      image: origin,
+    },
+    {
+      title: "Github",
+      description:
+        "GitHub is a developer platform that allows developers to create, store, manage and share their code",
+      link: "https://github.com/",
+      image: github,
+    },
+    {
+      title: "TinyML",
+      description:
+        "TnyML is a community of developers and enthusiasts who are passionate about IoT, Embedded Programming Machine Learning and Artificial Intelligence.",
+      link: "https://dehub.dkut.ac.ke/team/",
+      image: tinyml,
     },
   ];
   const themes = [

@@ -11,6 +11,7 @@ export function CanvasRevealEffectDemo() {
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-slate-950 dark:bg-black w-full gap-4 mx-auto px-8">
         <Card
           title="Winners"
+          cash="Ksh. 15,000"
           prizes="Tour to Microsoft ADC"
           prize2="Mentorship by Microsoft Engineers"
           prize3="Swag Pack"
@@ -24,7 +25,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="1st Runners Up"
           prizes="Swag Pack"
-          prize2="Ksh. 5,000 "
+          cash="Ksh. 10,000 "
           icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
@@ -42,11 +43,23 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="2nd Runners Up"
           prizes="Swag Pack"
+          cash="Ksh 5,000"
           icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
+            colors={[[125, 211, 252]]}
+          />
+        </Card>
+        <Card
+          title="Most Outstanding Solution Per Theme"
+          prizes="Swag Pack"
+          icon={<FaGift color="#42C5E2" size={30} />}
+        >
+          <CanvasRevealEffect
+            animationSpeed={3}
+            containerClassName=" bg-emerald-900"
             colors={[[125, 211, 252]]}
           />
         </Card>
@@ -58,6 +71,7 @@ export function CanvasRevealEffectDemo() {
 const Card = ({
   title,
   icon,
+  cash,
   children,
   prizes,
   prize2,
@@ -65,6 +79,7 @@ const Card = ({
 }: {
   title: string;
   icon: ReactElement;
+  cash?: string;
   children?: React.ReactNode;
   prizes?: string;
   prize2?: string;
@@ -113,6 +128,9 @@ const Card = ({
         </p>
         <p className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {prize3}
+        </p>
+        <p className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+          {cash && `Cash Prize: ${cash}`}
         </p>
       </div>
     </div>
