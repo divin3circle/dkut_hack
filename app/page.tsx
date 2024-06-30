@@ -49,7 +49,7 @@ export default function Home() {
       title: "Postman",
       description:
         "A collaboration platform for API development that allows users to design, mock, document, and test APIs.",
-      link: "https://www.postman.com/",
+      link: "https://bit.ly/Postman-dekut",
       image: postman,
     },
     {
@@ -105,7 +105,7 @@ export default function Home() {
       title: "Github",
       description:
         "GitHub is a developer platform that allows developers to create, store, manage and share their code",
-      link: "https://github.com/",
+      link: "https://gh.io/dekut2024",
       image: github,
     },
     {
