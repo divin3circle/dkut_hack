@@ -16,7 +16,7 @@ export function LampDemo() {
         }}
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Build lamps <br /> the right way
+        DeKUT HACK 2025
       </motion.h1>
     </LampContainer>
   );
@@ -29,7 +29,7 @@ export const LampContainer = ({
   children: React.ReactNode;
   className?: string;
 }) => {
-  const deadline = new Date("2024-06-20T00:00:00");
+  const deadline = new Date(2025, 9, 10);
   // console.log(deadline.getTime().toLocaleString());
   const calculateTimeLeft = () =>
     Math.max(0, deadline.getTime() - new Date().getTime());
@@ -133,8 +133,8 @@ export const LampContainer = ({
               }}
               className="text-[#42C5E2] text-lg md:text-xl text-center font-bold md:mb-0 mb-4"
             >
-              {/* {days} days {hours} hours {minutes} minutes {seconds} seconds */}{" "}
-              Registration Closed
+              {days} days {hours} hours {minutes} minutes {seconds} seconds
+              Remaining
             </motion.h1>
             <motion.a
               initial={{ opacity: 0.5, y: 100 }}
@@ -146,7 +146,7 @@ export const LampContainer = ({
               }}
               href="#"
               target="_blank"
-              className="px-4 cursor-not-allowed md:px-12 py-2 text-white text-lg rounded-md hover:bg-slate-950 hover:text-[#42C5E2] ease-in-out duration-150 hover:scale-110 border-2 border-[#42c7e2] hover:border-0 flex justify-center items-center"
+              className="px-4 md:px-12 py-2 text-white text-lg rounded-md hover:bg-slate-950 hover:text-[#42C5E2] ease-in-out duration-150 hover:scale-110 border-2 border-[#42c7e2] hover:border-0 flex justify-center items-center"
             >
               Register
             </motion.a>

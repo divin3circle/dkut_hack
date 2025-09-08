@@ -34,23 +34,9 @@ export default function Home() {
     {
       title: "Microsoft ADC",
       description:
-        "The Africa Development Center (ADC) represents Microsoft's first-ever developent centers in Africa. It's a premier center of Engineering for Microsoft that leverages the diversity of the region to build world class talent.",
+        "The Africa Development Center (ADC) represents Microsoft's first-ever development centers in Africa. It's a premier center of Engineering for Microsoft that leverages the diversity of the region to build world class talent.",
       link: "https://www.microsoft.com/en-us/madc",
       image: adc,
-    },
-    {
-      title: "Internet Computer",
-      description:
-        "A blockchain-based cloud computing platform that aims to reinvent the internet.",
-      link: "https://internetcomputer.org/",
-      image: ic,
-    },
-    {
-      title: "Postman",
-      description:
-        "A collaboration platform for API development that allows users to design, mock, document, and test APIs.",
-      link: "https://bit.ly/Postman-dekut",
-      image: postman,
     },
     {
       title: "Moringa School",
@@ -95,25 +81,11 @@ export default function Home() {
       image: dekut,
     },
     {
-      title: "Origin Labs Africa",
-      description:
-        "Origin is an interdisciplinary research and innovation hub, the purpose of which is to solve the complex problems of Africa.",
-      link: "https://originlabsafrica.org/",
-      image: origin,
-    },
-    {
       title: "Github",
       description:
         "GitHub is a developer platform that allows developers to create, store, manage and share their code",
       link: "https://gh.io/dekut2024",
       image: github,
-    },
-    {
-      title: "TinyML",
-      description:
-        "TnyML is a community of developers and enthusiasts who are passionate about IoT, Embedded Programming Machine Learning and Artificial Intelligence.",
-      link: "https://dehub.dkut.ac.ke/team/",
-      image: tinyml,
     },
   ];
   const themes = [
@@ -156,33 +128,39 @@ export default function Home() {
   ];
   const content = [
     {
-      title: "Climate Change",
+      title: "Agriculture (SGD 2)",
       description:
-        "Be part of a global movement to combat climate change. DeKUT hackathon allows you to collaborate with others in real building real world solutions, making it easier than ever to make a difference. Join us and help create a sustainable future for all.",
+        "How can we use tech to end hunger? This theme challenges you to think beyond simply growing more food and instead hack smarter systems to eliminate waste and improve food access. The goal is to use tech to promote agriculture, achieve food security and improve nutrition.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Climate Change
+          Agriculture (SGD 2)
         </div>
       ),
     },
     {
-      title: "Education",
-      description:
-        "Education: Fostering learning and skill development in technology. This theme focuses on creating innovative solutions to enhance the educational experience. This could include developing interactive learning platforms, improving accessibility to educational resources, or creating tools to aid in remote learning. The goal is to leverage technology to make education more engaging, accessible, and effective for all",
+      title: "Green Energy (SGD 7)",
+      description: "The challenge here is to innovate solutions that make clean energy not just a possibility, but a reality for all. Whether it’s renewable power, energy efficiency, or affordable access for underserved communities, teams can explore innovations that push the world closer to universal green energy.",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
-          Education
+          Green Energy (SGD 7)
         </div>
       ),
     },
     {
-      title: "Healthcare",
-      description:
-        "Healthcare: Revolutionizing health and wellness through technology. This theme focuses on creating innovative solutions to improve healthcare delivery, patient care, and health outcomes. This could include developing telemedicine platforms, health monitoring apps, or AI-based diagnostic tools. The goal is to leverage technology to make healthcare more efficient, accessible, and personalized for all.",
+      title: "Sustainable Cities (SDG 11)",
+      description: "This theme is about tackling the friction points of city life to create smarter and more livable urban spaces. The goal is to create future-proof cities solving mobility, waste management, housing and disaster readiness.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-          Healthcare
+          Sustainable Cities (SDG 11)
         </div>
+      ),
+    },
+    {
+      title: "Peace & Justice (SDG 16)",
+      description: "Here teams are challenged to develop solutions to promote transparent, accountable governance and access to justice. This theme hacks the systems of trust and governance that enable all other goals.",
+      content: (
+        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
+          Sustainable Cities (SDG 11)        </div>
       ),
     },
   ];
@@ -241,7 +219,7 @@ export default function Home() {
             }}
             className="bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl mt-20 md:mt-0"
           >
-            DeKUT HACK <br /> Driving <FlipWords words={words} />
+            DeKUT HACK 2025 <br /> Driving <FlipWords words={words} />
           </motion.h1>
         </LampContainer>
       </div>
@@ -263,7 +241,7 @@ export default function Home() {
         </div>
         <StickyScroll content={content} />
         <h1 className="text-[#42C5E2] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
-          Hackathon Sponsors
+          Hackathon Partners
         </h1>
         <HoverEffect items={projects} />
         <div className="h-[40rem] rounded-md flex flex-col antialiased bg-slate-950 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">

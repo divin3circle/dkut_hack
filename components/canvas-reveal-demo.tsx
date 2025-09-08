@@ -24,7 +24,7 @@ export function CanvasRevealEffectDemo() {
         </Card>
         <Card
           title="1st Runners Up"
-          prizes="Swag Pack"
+          prizes="Swag Pack, + Tour to Microsoft ADC"
           cash="Ksh. 10,000 "
           icon={<FaGift color="#42C5E2" size={30} />}
         >
@@ -42,7 +42,7 @@ export function CanvasRevealEffectDemo() {
         </Card>
         <Card
           title="2nd Runners Up"
-          prizes="Swag Pack"
+          prizes="Swag Pack, + Tour to Microsoft ADC"
           cash="Ksh 5,000"
           icon={<FaGift color="#42C5E2" size={30} />}
         >
@@ -54,7 +54,7 @@ export function CanvasRevealEffectDemo() {
         </Card>
         <Card
           title="Most Outstanding Solution Per Theme"
-          prizes="Swag Pack"
+          prizes="Swag Pack, + Tour to Microsoft ADC"
           icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
