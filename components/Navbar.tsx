@@ -23,7 +23,7 @@ function Navbar() {
           <FaWhatsapp color="gray" size={34} />
         </a>
         <a
-          href="https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b4fESVfay2FEjJAwLh7k8axUQUZCVVRTVkRCQktVSDYzUTM3SFhYMzFWOC4u"
+          href="https://forms.cloud.microsoft/r/L2W0LiYqcP"
           target="_blank"
         >
           <button className="bg-[#42C7E2] px-8 py-2 text-white text-lg rounded-md ">
