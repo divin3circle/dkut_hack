@@ -17,7 +17,7 @@ function Footer() {
             </p>
 
             <a
-              href="https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b4fESVfay2FEjJAwLh7k8axUQUZCVVRTVkRCQktVSDYzUTM3SFhYMzFWOC4u"
+              href="https://forms.cloud.microsoft/r/L2W0LiYqcP"
               target="_blank"
               className="mt-8 inline-block rounded-full border border-[#42C5E2] px-12 py-3 text-sm font-medium text-[#42C5E2] hover:bg-[#42C5E2] hover:text-white"
             >
