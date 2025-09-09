@@ -29,7 +29,7 @@ export const LampContainer = ({
   children: React.ReactNode;
   className?: string;
 }) => {
-  const deadline = new Date(2025, 9, 10);
+  const deadline = new Date(2025, 8, 26);
   // console.log(deadline.getTime().toLocaleString());
   const calculateTimeLeft = () =>
     Math.max(0, deadline.getTime() - new Date().getTime());
