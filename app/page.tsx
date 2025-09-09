@@ -268,7 +268,7 @@ export default function Home() {
         /> */}
         <div className="flex items-center justify-center">
           <a
-            href="mailto:mlsa@dekut-hack.live"
+            href="mailto:collins.nyaigoti@studentambassadors.com"
             className="flex items-center justify-center text-gray-900 rounded-md bg-[#42c5e2] border-2 border-[#42c5e2] hover:bg-transparent hover:scale-110 ease-in duration-200 hover:text-gray-400"
           >
             <button className="rounded-lg px-4 py-4 flex justify-between gap-2 text-xl">
