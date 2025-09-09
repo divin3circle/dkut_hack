@@ -229,9 +229,8 @@ export default function Home() {
         </h1>
         <div className="max-w-[800px] flex items-center justify-center mx-auto my-0 p-8">
           <p className="text-gray-300 text-center leading-relaxed">
-            Dekut Hack will have three themes: Climate, Education and
-            Healthcare. Teams will have the flexibility to develop their
-            projects within any of these three areas. The aim is to allow
+            Dekut Hack will have four themes: Agriculture, green energy, sustainable cities and peace & justice. Teams will have the flexibility to develop their
+            projects within any of these four areas. The aim is to allow
             participants to explore and innovate in the field of their choice,
             whether it is addressing the current climate issues, enhancing
             educational systems or improving our healthcare systems.Each team
