@@ -11,7 +11,7 @@ export function CanvasRevealEffectDemo() {
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-slate-950 dark:bg-black w-full gap-4 mx-auto px-8">
         <Card
           title="Winners"
-          cash="Ksh. 15,000"
+          /*cash="Ksh. 15,000"*/
           prizes="Tour to Microsoft ADC"
           prize2="Mentorship by Microsoft Engineers"
           prize3="Swag Pack"
@@ -25,7 +25,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="1st Runners Up"
           prizes="Swag Pack, + Tour to Microsoft ADC"
-          cash="Ksh. 10,000 "
+          /*cash="Ksh. 10,000 "*/
           icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
@@ -43,7 +43,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="2nd Runners Up"
           prizes="Swag Pack, + Tour to Microsoft ADC"
-          cash="Ksh 5,000"
+          /*cash="Ksh 5,000"*/
           icon={<FaGift color="#42C5E2" size={30} />}
         >
           <CanvasRevealEffect
