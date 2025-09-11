@@ -254,8 +254,8 @@ export default function Home() {
             Dekut Hack will have four themes: Agriculture, green energy, sustainable cities and peace & justice. Teams will have the flexibility to develop their
             projects within any of these four areas. The aim is to allow
             participants to explore and innovate in the field of their choice,
-            whether it is addressing the current climate issues, enhancing
-            educational systems or improving our healthcare systems.Each team
+            whether it is addressing the current hunger issues, enhancing
+            renewable energy generation and use or improving our city systems.Each team
             can select the theme that best aligns with their interests and
             expertise
           </p>
