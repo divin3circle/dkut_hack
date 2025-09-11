@@ -38,13 +38,13 @@ export default function Home() {
       link: "https://www.microsoft.com/en-us/madc",
       image: adc,
     },
-    {
+    /*{
       title: "Moringa School",
       description:
         " A tech education company that offers training in software development, data science, and digital marketing.",
       link: "https://moringaschool.com/",
       image: ms,
-    },
+    },*/
     {
       title: "Dedan Kimathi Innovators Club",
       description:
