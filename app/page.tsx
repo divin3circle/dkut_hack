@@ -38,6 +38,20 @@ export default function Home() {
       link: "https://www.microsoft.com/en-us/madc",
       image: adc,
     },
+    {
+      title: "Microsoft Learn Student Ambassadors",
+      description:
+        "A global group of on-campus ambassadors who are eager to help students learn more about technology.",
+      link: "https://studentambassadors.microsoft.com/",
+      image: mlsa,
+    },
+    {
+      title: "Computer Society of Kimathi",
+      description:
+        "A community of students at Dedan Kimathi University of Technology who are committed to personal and professional growth and upskilling through sessions, peer-to -peer mentorship, partnerships and in-house innovations.",
+      link: "https://x.com/csokimathi?t=5PuivvPFPWB-Wk5SJN_6EQ&s=09",
+      image: csok,
+    },
     /*{
       title: "Moringa School",
       description:
@@ -53,25 +67,11 @@ export default function Home() {
       image: dkut,
     },
     {
-      title: "Microsoft Learn Student Ambassadors",
-      description:
-        "A global group of on-campus ambassadors who are eager to help students learn more about technology.",
-      link: "https://studentambassadors.microsoft.com/",
-      image: mlsa,
-    },
-    {
       title: "DeSIC Dedan Kimathi",
       description:
         "A platform providing speedy commercialization of student innovations",
       link: "https://dehub.dkut.ac.ke/",
       image: desaic,
-    },
-    {
-      title: "Computer Society of Kimathi",
-      description:
-        "A community of students at Dedan Kimathi University of Technology who are committed to personal and professional growth and upskilling through sessions, peer-to -peer mentorship, partnerships and in-house innovations.",
-      link: "https://x.com/csokimathi?t=5PuivvPFPWB-Wk5SJN_6EQ&s=09",
-      image: csok,
     },
     {
       title: "Dedan Kimathi University",
@@ -91,9 +91,9 @@ export default function Home() {
   const themes = [
     {
       quote:
-        "Climate change knows no borders. It will not stop before the Pacific islands and the whole of the international community here has to shoulder a responsibility to bring about a sustainable development.",
-      name: "Angela Merkel",
-      title: "Climate Change",
+        "The ultimate goal of farming is not the growing of crops, but the cultivation and perfection of human beings.",
+      name: " Masanobu Fukuoka, Japanese farmer and philosopher",
+      title: "Agriculture",
     },
     // {
     //   quote:
@@ -103,27 +103,33 @@ export default function Home() {
     // },
     {
       quote:
-        "Healthcare is a right, not a privilege. Every person deserves the highest standard of care, and it's our responsibility as developers to use our skills and technology to make this a reality.",
+        "We shape our cities, and thereafter our cities shape us.",
+      name: "Winston Churchill",
+      title: "Sustainable Cities",
+    },
+    {
+      quote:
+        "The answer is blowing in the wind.",
       name: "Unknown",
-      title: "Healthcare",
+      title: "Green Energy",
     },
     {
       quote:
-        "The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education.",
-      name: "Martin Luther King Jr.",
-      title: "Education",
+        "Cities have the capability of providing something for everybody, only because, and only when, they are created by everybody.",
+      name: "Jane Jacobs",
+      title: "Sustainable Cities",
     },
     {
       quote:
-        "The health of the people is really the foundation upon which all their happiness and all their powers as a state depend.",
-      name: "Benjamin Disraeli",
-      title: "Healthcare",
+        "Injustice anywhere is a threat to justice everywhere.",
+      name: "Martin Luther King",
+      title: "Peace & Justice",
     },
     {
       quote:
-        "We are the first generation to feel the effect of climate change and the last generation who can do something about it.",
-      name: "Barack Obama",
-      title: "Climate Change",
+        "The only thing necessary for the triumph of evil is for good men to do nothing.",
+      name: "Edmund Burke",
+      title: "Peace & Justice",
     },
   ];
   const content = [
