@@ -73,13 +73,13 @@ export default function Home() {
       link: "https://dehub.dkut.ac.ke/",
       image: desaic,
     },
-    {
+    /*{
       title: "Dedan Kimathi University",
       description:
         "DeKUT is one of the most progressive University in Africa with keen focus on quality education,and holistic development of students.",
       link: "https://www.dkut.ac.ke/",
       image: dekut,
-    },
+    },*/
     {
       title: "Github",
       description:
