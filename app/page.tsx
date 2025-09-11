@@ -19,6 +19,7 @@ import csok from "../app/logos/csok.png";
 import origin from "../app/logos/origin.png";
 import github from "../app/logos/github.svg";
 import tinyml from "../app/logos/tinyml.png";
+import zeraki from "../app/logos/zeraki.png";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { CanvasRevealEffectDemo } from "@/components/canvas-reveal-demo";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
@@ -86,6 +87,13 @@ export default function Home() {
         "GitHub is a developer platform that allows developers to create, store, manage and share their code",
       link: "https://gh.io/dekut2024",
       image: github,
+    },
+    {
+      title: "Zeraki",
+      description:
+        " Zeraki simplifies and enhances the use of technology to deliver quality education, with products for parents, teachers, students and schools.",
+      link: "https://www.zeraki.app/",
+      image: zeraki,
     },
   ];
   const themes = [
