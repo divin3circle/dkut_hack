@@ -20,6 +20,7 @@ import origin from "../app/logos/origin.png";
 import github from "../app/logos/github.svg";
 import tinyml from "../app/logos/tinyml.png";
 import zeraki from "../app/logos/zeraki.png";
+import eth from "../app/logos/eth.jpeg";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { CanvasRevealEffectDemo } from "@/components/canvas-reveal-demo";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
@@ -94,6 +95,13 @@ export default function Home() {
         " Zeraki simplifies and enhances the use of technology to deliver quality education, with products for parents, teachers, students and schools.",
       link: "https://www.zeraki.app/",
       image: zeraki,
+    },
+    {
+      title: "Eth Foundation",
+      description:
+        "Eth Foundation is a non-profit that supports the Ethereum ecosystem",
+      link: "https://ethereum.foundation/",
+      image: eth,
     },
   ];
   const themes = [
