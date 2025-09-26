@@ -13,6 +13,7 @@ import postman from "../app/logos/postman.png";
 import ms from "../app/logos/moringa.png";
 import dkut from "../app/logos/dkut.png";
 import mlsa from "../app/logos/mlsa.png";
+import notion from "../app/logos/notion.jpeg";
 import desaic from "../app/logos/desaic.png";
 import dekut from "../app/logos/dekut.png";
 import csok from "../app/logos/csok.png";
@@ -97,11 +98,13 @@ export default function Home() {
       image: zeraki,
     },
     {
-      title: "Eth Foundation",
+      title: "Notion",
       description:
-        "Eth Foundation is a non-profit that supports the Ethereum ecosystem",
-      link: "https://ethereum.foundation/",
-      image: eth,
+        "A Notion workspace is a flexible, all-in-one platform that combines notes, databases, project management, and wikis into a single, customizable system.  
+
+",
+      link: "https://www.notion.com/",
+      image: notion,
     },
   ];
   const themes = [
